@@ -9,7 +9,7 @@ import { HousingLocation } from '../housing-location';
   imports: [CommonModule , HousingLocationComponent  ],
   template: `
   <section>
-  <form>
+  <form class="header-box">
     <input type="text" placeholder="Filter by city" />
     <button class="primary" type="button">Search</button>
   </form>
@@ -32,33 +32,40 @@ export class HomeComponent {
       "availableUnits": 4,
       "wifi": true ,
       "laundry": true,
+      "photo": "/assets/house01.jpg",
     },
     {
-      "id" : 0 ,
+      "id" : 1 ,
       "name":"Acme Fresh Start Housing",
       "city" :"chicago",
       "state":"IL",
       "availableUnits": 4,
       "wifi": true ,
       "laundry": true,
+      "photo":"/assets/house02.jpg",
+
     },
     {
-      "id" : 0 ,
+      "id" : 2 ,
       "name":"Acme Fresh Start Housing",
       "city" :"chicago",
       "state":"IL",
       "availableUnits": 4,
       "wifi": true ,
       "laundry": true,
+      "photo":"/assets/house03.jpg",
+
     },
     {
-      "id" : 0 ,
+      "id" : 3 ,
       "name":"Acme Fresh Start Housing",
       "city" :"chicago",
       "state":"IL",
       "availableUnits": 4,
       "wifi": true ,
       "laundry": true,
+      "photo":"/assets/house04.jpg",
+
     }
   ] ;
 }
