@@ -1,7 +1,8 @@
-import { Component ,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { Component ,inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
 import { HousingLocation } from '../housing-location';
+import { HousingService } from '../housing.service';
 
 @Component({
   selector: 'app-home',
@@ -23,49 +24,10 @@ import { HousingLocation } from '../housing-location';
 styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  housingLocationList : HousingLocation[] = [
-    {
-      "id" : 0 ,
-      "name":"Acme Fresh Start Housing",
-      "city" :"chicago",
-      "state":"IL",
-      "availableUnits": 4,
-      "wifi": true ,
-      "laundry": true,
-      "photo": "/assets/house01.jpg",
-    },
-    {
-      "id" : 1 ,
-      "name":"Acme Fresh Start Housing",
-      "city" :"chicago",
-      "state":"IL",
-      "availableUnits": 4,
-      "wifi": true ,
-      "laundry": true,
-      "photo":"/assets/house02.jpg",
+  housingLocationList : HousingLocation[] = [];
+  housingService: HousingService = inject (HousingService);
 
-    },
-    {
-      "id" : 2 ,
-      "name":"Acme Fresh Start Housing",
-      "city" :"chicago",
-      "state":"IL",
-      "availableUnits": 4,
-      "wifi": true ,
-      "laundry": true,
-      "photo":"/assets/house03.jpg",
-
-    },
-    {
-      "id" : 3 ,
-      "name":"Acme Fresh Start Housing",
-      "city" :"chicago",
-      "state":"IL",
-      "availableUnits": 4,
-      "wifi": true ,
-      "laundry": true,
-      "photo":"/assets/house04.jpg",
-
-    }
-  ] ;
+  constructor () {
+    this.housingLocationList = this.housingService.getAllHousingLocations();
+  }
 }
