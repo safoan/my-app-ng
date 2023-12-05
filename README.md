@@ -1,28 +1,32 @@
+# Note :
+this is still a work in progress app (Not Finished)
+
 # MyApp
+this is My first Angular app 
+i am Following a tutorial video provided By the Angular Team and making Some changes on the way to practice More so i can gain more knowledge and not just Follow the tutor.
+
+# Links To Follow :
+the Link to the Tutorial : (https://www.youtube.com/playlist?list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF)
+
+the Official Documentation For Angular : (https://angular.dev/tutorials/first-app)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# to run the app :
 
-## Code scaffolding
+u must have node installed in your Machine 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- With node.js and npm installed. 
 
-## Build
+- install the Angular CLI which provides tooling for effective Angular development.
+From a Terminal window run the following command: `npm install -g @angular/cli`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- clone the repo to your IDE.
 
-## Running unit tests
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Thank You Have a Good Day ^_^
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # my-app-ng
