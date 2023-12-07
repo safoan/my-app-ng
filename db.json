@@ -1,0 +1,47 @@
+{
+    "locations" :[
+        {
+            "id" : 0 ,
+            "name":"Acme Fresh Start Housing",
+            "city" :"chicago",
+            "state":"IL",
+            "availableUnits": 4,
+            "wifi": true ,
+            "laundry": true,
+            "photo": "/assets/house01.jpg"
+          },
+          {
+            "id" : 1 ,
+            "name":"Acme Fresh Start Housing",
+            "city" :"chicago",
+            "state":"IL",
+            "availableUnits": 4,
+            "wifi": true ,
+            "laundry": true,
+            "photo":"/assets/house02.jpg"
+      
+          },
+          {
+            "id" : 2 ,
+            "name":"Acme Fresh Start Housing",
+            "city" :"chicago",
+            "state":"IL",
+            "availableUnits": 4,
+            "wifi": true ,
+            "laundry": true,
+            "photo":"/assets/house03.jpg"
+      
+          },
+          {
+            "id" : 3 ,
+            "name":"Acme Fresh Start Housing",
+            "city" :"chicago",
+            "state":"IL",
+            "availableUnits": 4,
+            "wifi": true ,
+            "laundry": true,
+            "photo":"/assets/house04.jpg"
+      
+          }
+    ]
+}
