@@ -13,7 +13,7 @@
           {
             "id" : 1 ,
             "name":"Acme Fresh Start Housing",
-            "city" :"chicago",
+            "city" :"newyork",
             "state":"IL",
             "availableUnits": 4,
             "wifi": true ,
@@ -24,7 +24,7 @@
           {
             "id" : 2 ,
             "name":"Acme Fresh Start Housing",
-            "city" :"chicago",
+            "city" :"los angeles",
             "state":"IL",
             "availableUnits": 4,
             "wifi": true ,
